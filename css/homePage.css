@@ -1,0 +1,214 @@
+body,html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+p,ul,li,ol,h1{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#main{
+	width: 100%;
+	background-color: #F2F2F2;
+	overflow: hidden;
+}
+/*标题*/
+#title{
+	width: 100%;
+	background-color: #3D3D3D;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	background-color: rgba(0,0,0,0.3);
+}
+#title .top{
+	width: 136px;
+	height: 44px;
+	margin:15px auto 40px;
+}
+#title .top img{
+	width: 100%;
+}
+#title .nav{
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	text-align: center;
+	color: #868886;
+}
+#title .nav .logo{
+	margin-left: 10%;
+}
+#title .nav a{
+	color: #868886;
+	text-decoration: none;
+}
+#title .nav a:hover{
+	color: white;
+}
+#title .nav span:hover{
+	color: white;
+	cursor: pointer;
+}
+/*轮播图*/
+#play{
+	width: 90%;
+	margin: 150px auto 0;
+	position: relative;
+}
+#play .swiper-wrapper{
+	width: 100%;
+}
+#play .swiper-wrapper img{
+	width: 100%;
+}
+#play .upText{
+	position: absolute;
+	width: 100%;
+	bottom: 2px;
+	background-color: rgba(0,0,0,0.5);
+	height: 30px;
+	z-index: 1;
+	color: white;
+	font-weight: bold;
+}
+#play .upText div{
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	top: 30px;
+}
+#play .upText .active{
+	top: 6px;
+	transition: all .5s linear;
+}
+.swiper-pagination{
+	width:100%;
+	text-align: center;
+	border-bottom: 1px solid #E8E8E8;
+	padding-bottom: 10px;
+	position: static;
+}
+.swiper-pagination span{
+	margin-right: 10px;
+}
+/*文字*/
+#text{
+	width: 90%;
+	margin: 40px auto;
+	color: #6E6666;
+}
+/*导航图片*/
+#navImg{
+	width: 90%;
+	margin: 0 auto 20px;
+	border-top: 1px #E8E8E8 solid;
+	padding: 10px;
+	text-align: center;
+}
+#navImg img{
+	width: 60px;
+	margin-left:32px ;
+}
+/*内容*/
+#content{
+	width: 90%;
+	margin: 0 auto;
+}
+#content a{
+	display: inline-block;
+	width: 31%;
+	text-decoration: none;
+	color: #ADADAD;
+	border-radius: 5px;
+	background-color: white;
+	margin-bottom: 5%;
+	overflow: hidden;
+}
+#content .logo{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+#content a .outer{
+	width: 100%;
+}
+#content a .outer .inner,#content a .outer .inner img{
+	width: 100%;
+}
+#content a .outer .inner{
+	position: relative;
+}
+#content a .outer p{
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+#content a .outer .inner ul{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+#content a .outer .inner ul .flex{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+}
+#content a .outer .inner ul .flex :nth-child(1){
+	font-size: 25px;
+}
+/*版权*/
+#copy{
+	width: 100%;
+	background-color: #E0E0E0;
+	overflow: hidden;
+	padding-top: 10px;
+}
+#copy>div{
+	float: left;
+	width:49%;
+}
+#copy>div div{
+	width: 100%;
+}
+#copy .copyImg{
+	width: 98%;
+
+	text-align: right;
+	padding-right:2% ;
+}
+#copy .copyImg span{
+	display: inline-block;
+	width: 5%;
+}
+#copy .copyImg span img{
+	width: 100%;
+}
+/*版权右边*/
+#copy .right{
+	width: 47%;
+	color: #666;
+	font-size: 12px;
+	padding-left: 2%;
+	padding-bottom: 1%;
+	border-left: 1px solid #BCBCBC;
+}
+#copy .right p{
+	margin-top: 10px;
+}
+#copy .right div{
+	width: 20%;
+}
+#copy .right div img{
+	width: 100%;
+}
